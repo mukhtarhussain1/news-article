@@ -14,6 +14,7 @@ import image16 from "../assets/images/image16.png";
 import image18 from "../assets/images/image18.png";
 import image19 from "../assets/images/image19.png";
 import image20 from "../assets/images/image20.png";
+import image21 from "../assets/images/image21.png";
 import image22 from "../assets/images/image22.png";
 import image23 from "../assets/images/image23.png";
 import image24 from "../assets/images/image24.png";
@@ -166,6 +167,19 @@ export const sectionSixData = [
     title: "OPEN HOUSE",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
     auther: "U. R. Oliver",
+  },
+];
+
+export const sectionSevenData = [
+  {
+    image: image21,
+    title1: "Half full",
+    title2: "One story, two perspectives",
+    title3: "Half empty",
+    text1:
+      "Louvre Abu Dhabi marks 4th anniversary with world class exhibition Louvre Abu Dhabi marks 4th.",
+    text2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
   },
 ];
 
