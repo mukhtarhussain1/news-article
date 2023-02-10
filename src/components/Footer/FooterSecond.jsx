@@ -8,22 +8,22 @@ const FooterSecond = () => {
         <div class="footerSecond-container">
           <ul>
             <li>
-              <a href="javascript:void(0);">Magazine</a>
+              <a href="/">Magazine</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Contact</a>
+              <a href="/">Contact</a>
             </li>
             <li>
-              <a href="javascript:void(0);">About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Press</a>
+              <a href="/">Press</a>
             </li>
             <li>
-              <a href="javascript:void(0);">sitemap</a>
+              <a href="/">sitemap</a>
             </li>
             <li>
-              <a href="javascript:void(0);">TS + CS</a>
+              <a href="/">TS + CS</a>
             </li>
           </ul>
         </div>

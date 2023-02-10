@@ -3,28 +3,23 @@ import image5 from "../assets/images/image5.png";
 import image6 from "../assets/images/image6.png";
 import image7 from "../assets/images/image7.png";
 import image8 from "../assets/images/image8.png";
-
 import image9 from "../assets/images/image9.png";
 import image10 from "../assets/images/image10.png";
 import image11 from "../assets/images/image11.png";
 import image12 from "../assets/images/image12.png";
-
 import image13 from "../assets/images/image13.png";
 import image14 from "../assets/images/image14.png";
 import image15 from "../assets/images/image15.png";
 import image16 from "../assets/images/image16.png";
-
 import image18 from "../assets/images/image18.png";
 import image19 from "../assets/images/image19.png";
 import image20 from "../assets/images/image20.png";
-
 import image22 from "../assets/images/image22.png";
 import image23 from "../assets/images/image23.png";
 import image24 from "../assets/images/image24.png";
 import image25 from "../assets/images/image25.png";
 import image26 from "../assets/images/image26.png";
 import image27 from "../assets/images/image27.png";
-
 import image28 from "../assets/images/image28.png";
 import image29 from "../assets/images/image29.png";
 import image30 from "../assets/images/image30.png";
@@ -80,7 +75,18 @@ export const sectionTwoData = [
   },
 ];
 
-export const sectionThreeData = [
+export const sectionThreeData1 = [
+  {
+    image: image9,
+    title: "Travel",
+    text: "Louvre Abu Dhabi marks 4th anniversary with world class exhibitions,programming for all",
+    text2:
+      "Exhin imlave asfear asfasas afsfeaarsa asfasfasf asfasfa ten cultable doice inverum",
+    span: "Cvita Doleschall",
+  },
+];
+
+export const sectionThreeData2 = [
   {
     image: image10,
     title: "Culture",
@@ -232,21 +238,21 @@ export const sectionNineData2 = [
 
 export const sectionTenData = [
   {
-    image: image18,
+    image: image28,
     title: "Eat",
     text: "Meals on wheels: Meals on wheels: best in the UAE best",
     text2: "in the UAE",
     auther: "U. R. Oliver",
   },
   {
-    image: image19,
+    image: image29,
     title: "Eat",
     text: "Meals on wheels: Meals on wheels: best in the UAE best",
     text2: "in the UAE",
     auther: "U. R. Oliver",
   },
   {
-    image: image20,
+    image: image30,
     title: "Eat",
     text: "Meals on wheels: Meals on wheels: best in the UAE best",
     text2: "in the UAE",

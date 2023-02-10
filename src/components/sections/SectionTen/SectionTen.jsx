@@ -8,7 +8,7 @@ const SectionTen = ({ Data }) => {
         {Data.map((item) => (
           <div className="col-md-4 sectionTen-card">
             <div>
-              <img src={item.image} />
+              <img alt="img" src={item.image} />
             </div>
             <div className="sectionTen-card-content">
               <div className="title mt-4">{item.title}</div>

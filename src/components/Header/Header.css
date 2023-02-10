@@ -35,7 +35,7 @@
 .main-header-section1 h6 {
     margin: 0;
     padding-inline: 10px;
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-weight: 700;
     font-size: 16px;
     color: var(--primary-color);

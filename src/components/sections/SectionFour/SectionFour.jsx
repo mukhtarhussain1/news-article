@@ -7,7 +7,7 @@ const SectionFour = ({ Data }) => {
         {Data.map((item) => (
           <li>
             <figure>
-              <img className="image" src={item.image}></img>
+              <img alt="img" className="image" src={item.image}></img>
               <figcaption>
                 <div className={item.ratings ? "title" : ""}>
                   {item.ratings}

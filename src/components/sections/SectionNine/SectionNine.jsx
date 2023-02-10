@@ -9,7 +9,7 @@ const SectionNine = () => {
         {sectionNineData1.map((item) => (
           <div className="col-md-4 part2-card">
             <div className="pe-4">
-              <img src={item.image}></img>
+              <img alt="img" src={item.image}></img>
             </div>
             <div>
               <div className="title">{item.title}</div>
@@ -24,7 +24,7 @@ const SectionNine = () => {
         {sectionNineData2.map((item) => (
           <div className="col-md-4 part2-card">
             <div className="pe-4">
-              <img src={item.image}></img>
+              <img alt="img" src={item.image}></img>
             </div>
             <div>
               <div className="title">{item.title}</div>

@@ -13,6 +13,9 @@
   --box-shadow: 0px 4px 5px 0px hsla(0, 0%, 0%, 0.14),
     0px 1px 10px 0px hsla(0, 0%, 0%, 0.12),
     0px 2px 4px -1px hsla(0, 0%, 0%, 0.2);
+
+  --Roboto: 'Roboto';
+  --PlayfairDisplay: 'Playfair Display';
 }
 
 #dark {
@@ -23,9 +26,10 @@
   --hr-clr: #fff;
   --section-bg: #434241;
   --hover-clr: #74BDB1;
-  --box-shadow: 0px 4px 5px 0px hsla(0, 0%, 0%, 0.14),
-    0px 1px 10px 0px hsla(0, 0%, 0%, 0.12),
-    0px 2px 4px -1px hsla(0, 0%, 0%, 0.2);
+  --box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+  --Roboto: 'Roboto';
+  --PlayfairDisplay: 'Playfair Display';
 }
 
 .App {
@@ -34,4 +38,10 @@
 
 .row {
   margin: 0;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
 }

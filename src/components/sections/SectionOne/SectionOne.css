@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+.sectionOne-container h6,
+.sectionOne-container p {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
 .sectionOne-left {
     display: flex;
     flex-direction: column;
@@ -23,25 +32,33 @@
     width: fit-content;
     padding: 6px 16Px;
     margin-bottom: 20px;
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
+    cursor: pointer;
+    clear: both;
+    transition: all 0.8s, color 0.3s 0.3s;
+}
+
+.title:hover {
+    box-shadow: 300px 0 0 0 rgba(169, 49, 49, 0.5) inset;
 }
 
 .sectionOne-left-part1 h6 {
-    font-family: 'Playfair Display';
+    font-family: var(--PlayfairDisplay);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 127%;
     color: var(--primary-color);
+
 }
 
 .sectionOne-left-part1 p {
-    font-family: 'Playfair Display';
+    font-family: var(--PlayfairDisplay);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -51,7 +68,7 @@
 }
 
 span {
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -69,7 +86,7 @@ span {
 .sectionOne-right-part1 p,
 .sectionOne-right-part2 p {
 
-    font-family: 'Playfair Display';
+    font-family: var(--PlayfairDisplay);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -78,15 +95,68 @@ span {
     padding-right: 40px;
 }
 
-/* Zoom In #1 */
-/* .sectionOne-right img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.sectionOne-container img {
+    transition: all 0.3s linear;
 }
 
-.sectionOne-right img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} */
+.sectionOne-container img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .sectionTwo-container ul {
+        flex-direction: column;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

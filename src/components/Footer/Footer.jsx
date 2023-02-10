@@ -9,10 +9,10 @@ const Footer = () => {
           <h4>News</h4>
           <ul>
             <li>
-              <a href="javascript:void(0);">Featured News</a>
+              <a href="/">Featured News</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Latest News</a>
+              <a href="/">Latest News</a>
             </li>
           </ul>
         </div>
@@ -20,25 +20,25 @@ const Footer = () => {
           <h4>Life</h4>
           <ul>
             <li>
-              <a href="javascript:void(0);">Latest News</a>
+              <a href="/">Latest News</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Fashion</a>
+              <a href="/">Fashion</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Dining</a>
+              <a href="/">Dining</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Recipes</a>
+              <a href="/">Recipes</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Art & Culture</a>
+              <a href="/">Art & Culture</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Travel</a>
+              <a href="/">Travel</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Motoring</a>
+              <a href="/">Motoring</a>
             </li>
           </ul>
         </div>
@@ -46,22 +46,22 @@ const Footer = () => {
           <h4>Business</h4>
           <ul>
             <li>
-              <a href="javascript:void(0);">Open House</a>
+              <a href="/">Open House</a>
             </li>
             <li>
-              <a href="javascript:void(0);">What does that even mean?</a>
+              <a href="/">What does that even mean?</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Homegrown</a>
+              <a href="/">Homegrown</a>
             </li>
             <li>
-              <a href="javascript:void(0);">How do I...</a>
+              <a href="/">How do I...</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Bag off</a>
+              <a href="/">Bag off</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Where to spend it</a>
+              <a href="/">Where to spend it</a>
             </li>
           </ul>
         </div>

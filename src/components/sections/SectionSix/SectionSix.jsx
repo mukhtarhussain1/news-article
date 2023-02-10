@@ -10,7 +10,7 @@ const SectionSix = () => {
       <div className="row">
         <div className="col-md-4 sectionSix-card">
           <div>
-            <img src={image18} />
+            <img alt="img" src={image18} />
           </div>
           <div className="sectionSix-card-content">
             <div className="title mt-4">Travel</div>
@@ -31,12 +31,12 @@ const SectionSix = () => {
             <span>U. R. Oliver</span>
           </div>
           <div className="mt-4">
-            <img src={image20} />
+            <img alt="img" src={image20} />
           </div>
         </div>
         <div className="col-md-4 sectionSix-card">
           <div>
-            <img src={image19} />
+            <img alt="img" src={image19} />
           </div>
           <div className="sectionSix-card-content">
             <div className="title mt-4">Travel</div>

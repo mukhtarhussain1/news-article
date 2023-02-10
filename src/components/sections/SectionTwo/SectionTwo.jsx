@@ -8,7 +8,7 @@ const SectionTwo = () => {
       <ul>
         {sectionTwoData.map((item) => (
           <li>
-            <img src={item.image}></img>
+            <img alt={item.title} src={item.image}></img>
             <div className="title">{item.title}</div>
             <p>{item.text}</p>
           </li>

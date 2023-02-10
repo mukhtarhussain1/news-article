@@ -54,3 +54,12 @@
     margin: 0;
     padding-inline: 10px;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .sectionTwo-container ul {
+        flex-direction: column;
+    }
+}

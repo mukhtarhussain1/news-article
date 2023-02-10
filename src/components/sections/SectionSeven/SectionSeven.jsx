@@ -18,7 +18,7 @@ const SectionSeven = () => {
       <div className="col-md-4 sectionSeven-part2">
         <div className="title">One story, two perspectives</div>
         <div>
-          <img src={image21} />
+          <img alt="img" src={image21} />
         </div>
       </div>
       <div className="col-md-4 sectionSeven-part3">

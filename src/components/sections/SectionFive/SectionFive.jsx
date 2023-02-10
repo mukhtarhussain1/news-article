@@ -1,6 +1,5 @@
 import React from "react";
 import "./SectionFive.css";
-import image17 from "../../../assets/images/image17.png";
 
 const SectionFive = () => {
   return (

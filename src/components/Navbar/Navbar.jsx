@@ -8,24 +8,24 @@ const Navbar = () => {
         <div class="container">
           <ul>
             <li>
-              <a href="javascript:void(0);" class="current">
+              <a href="/" class="current">
                 News
               </a>
             </li>
             <li>
-              <a href="javascript:void(0);">Opinion</a>
+              <a href="/">Opinion</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Life</a>
+              <a href="/">Life</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Businuss</a>
+              <a href="/">Businuss</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Magazine</a>
+              <a href="/">Magazine</a>
             </li>
             <li>
-              <a href="javascript:void(0);">Newsletter</a>
+              <a href="/">Newsletter</a>
             </li>
           </ul>
         </div>

@@ -28,7 +28,7 @@ ul {
 .nav a {
     color: var(--primary-color);
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 19px;

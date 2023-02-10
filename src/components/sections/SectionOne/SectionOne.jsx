@@ -9,7 +9,7 @@ const SectionOne = ({ Data }) => {
     <>
       {Data.map((item) => (
         <div className="row sectionOne-container">
-          <div className="col-md-6 sectionOne-left">
+          <div className="col-md-12 col-lg-6 sectionOne-left">
             <div className="sectionOne-left-part1">
               <div className="title">{item.travel}</div>
               <h6>{item.mainHeading}</h6>
@@ -17,11 +17,11 @@ const SectionOne = ({ Data }) => {
               <span>{item.auther}</span>
             </div>
             <div className="sectionOne-left-part2">
-              <img src={image1}></img>
+              <img alt="img" src={image1}></img>
             </div>
           </div>
-          <div className="col-md-6 sectionOne-right">
-            <div className="col-md-6 sectionOne-right-part1">
+          <div className="col-md-12 col-lg-6 sectionOne-right">
+            <div className="col-md-12 col-lg-6 sectionOne-right-part1">
               <div>
                 <div className="title">{item.dine}</div>
                 <p>{item.loram}</p>
@@ -33,7 +33,7 @@ const SectionOne = ({ Data }) => {
                 <span>{item.auther}</span>
               </div>
               <div className="mb-3">
-                <img src={image2}></img>
+                <img alt="img" src={image2}></img>
               </div>
               <div>
                 <div className="title">{item.openHouse}</div>
@@ -41,9 +41,9 @@ const SectionOne = ({ Data }) => {
                 <span>{item.auther}</span>
               </div>
             </div>
-            <div className="col-md-6 sectionOne-right-part2">
+            <div className="col-md-12 col-lg-6 sectionOne-right-part2">
               <div className="mb-3">
-                <img src={image3}></img>
+                <img alt="img" src={image3}></img>
               </div>
               <div>
                 <div className="title">{item.openHouse}</div>

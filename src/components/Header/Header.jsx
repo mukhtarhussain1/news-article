@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.css";
-import barsIcon from "../../assets/images/bars.png";
-import switchIcon from "../../assets/images/switch.png";
 import logo from "../../assets/images/logo.png";
 import { FaBars } from "react-icons/fa";
 import { BsMoonFill } from "react-icons/bs";
@@ -10,7 +8,7 @@ const nav = document.querySelector(".main-header");
 window.addEventListener("scroll", fixNav);
 
 function fixNav() {
-  if (window.scrollY > nav.offsetHeight + 150) {
+  if (window.scrollY > nav.offsetHeight + 250) {
     nav.classList.add("active");
   } else {
     nav.classList.remove("active");
@@ -26,7 +24,7 @@ const Header = ({ toggleTheme }) => {
         <BsMoonFill onClick={toggleTheme} className="menu-icon" />
       </div>
       <div className="col-4 main-header-section2">
-        <img src={logo}></img>
+        <img alt="img" src={logo}></img>
       </div>
       <div className="col-4"></div>
     </div>

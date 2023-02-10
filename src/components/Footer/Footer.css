@@ -23,41 +23,10 @@
     padding-bottom: 2.5em;
 }
 
-@media screen and (min-width: 550px) {
-    #site-nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #site-nav .col {
-        flex: 0 0 50%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    #site-nav .col {
-        flex: 0 0 33.333333333%;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    #site-nav {
-        flex-wrap: nowrap;
-    }
-
-    #site-nav .col {
-        flex: 0 0 20%;
-    }
-
-    #site-nav .col:last-child {
-        display: flex;
-        justify-content: flex-end;
-    }
-}
 
 .footer-left-content h4,
 .footer-right-content h4 {
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -78,7 +47,7 @@
 
 .footer-left-content li a {
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -95,7 +64,7 @@
 }
 
 .footer-right-content p {
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -130,7 +99,7 @@
 
 ::placeholder,
 .footer-right-content button {
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -162,4 +131,20 @@
 
 .nav .footerSecond-container a {
     padding: 7px 75px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .nav .footerSecond-container a {
+        padding: 7px 3px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .nav .footerSecond-container a {
+        padding: 7px 27px;
+    }
 }

@@ -15,8 +15,9 @@ import FooterSecond from "./Footer/FooterSecond";
 
 import {
   sectionOneData,
+  sectionThreeData2,
+  sectionThreeData1,
   sectionFourData,
-  sectionSixData,
   sectionEightData,
   sectionTenData,
 } from "../data/common";
@@ -28,12 +29,11 @@ const Homepage = ({ toggleTheme }) => {
       <Navbar />
       <SectionOne Data={sectionOneData} />
       <SectionTwo />
-      <SectionThree />
+      <SectionThree Data1={sectionThreeData1} Data2={sectionThreeData2} />
       <SectionFour Data={sectionFourData} />
       <SectionFive />
       <SectionSix />
       <SectionSeven />
-      {/* reusing the same component  */}
       <SectionFour Data={sectionEightData} />
       <SectionNine />
       <SectionTen Data={sectionTenData} />
