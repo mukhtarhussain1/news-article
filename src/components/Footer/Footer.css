@@ -134,17 +134,9 @@
 }
 
 
-
-@media screen and (max-width: 768px) {
-
-    .nav .footerSecond-container a {
-        padding: 7px 3px;
-    }
-}
-
 @media screen and (max-width: 1200px) {
 
     .nav .footerSecond-container a {
-        padding: 7px 27px;
+        padding: 7px 10px;
     }
 }

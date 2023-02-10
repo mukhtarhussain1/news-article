@@ -83,6 +83,8 @@ span {
     text-align: start;
 }
 
+
+
 .sectionOne-right-part1 p,
 .sectionOne-right-part2 p {
 
@@ -106,9 +108,26 @@ span {
 
 @media screen and (max-width: 1200px) {
 
+    .main-header {
+        position: absolute;
+    }
+
     .sectionTwo-container ul {
         flex-direction: column;
     }
+
+    .sectionOne-left img {
+        height: 250px;
+    }
+
+    .sectionOne-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
 }
 
 @keyframes fadeIn {

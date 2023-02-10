@@ -21,7 +21,7 @@ const SectionOne = ({ Data }) => {
             </div>
           </div>
           <div className="col-md-12 col-lg-6 sectionOne-right">
-            <div className="col-md-12 col-lg-6 sectionOne-right-part1">
+            <div className="col-12 col-md-12 col-lg-12 col-xl-6 sectionOne-right-part1">
               <div>
                 <div className="title">{item.dine}</div>
                 <p>{item.loram}</p>
@@ -41,7 +41,7 @@ const SectionOne = ({ Data }) => {
                 <span>{item.auther}</span>
               </div>
             </div>
-            <div className="col-md-12 col-lg-6 sectionOne-right-part2">
+            <div className="col-12 col-md-12 col-lg-12 col-xl-6 sectionOne-right-part2">
               <div className="mb-3">
                 <img alt="img" src={image3}></img>
               </div>

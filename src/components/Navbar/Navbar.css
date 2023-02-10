@@ -1,7 +1,7 @@
 .nav {
     transition: all 0.3s ease-in-out;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .nav .container {
@@ -65,4 +65,12 @@ hr {
     height: 1px;
     width: 90%;
     margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
 }

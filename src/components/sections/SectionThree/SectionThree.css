@@ -1,6 +1,5 @@
 .sectionThree-container {
     padding: 60px;
-
 }
 
 .sectionThree-container .part1 {
@@ -50,4 +49,21 @@
 .sectionThree-container .part2 .part2-card:hover {
     box-shadow: var(--box-shadow);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .sectionThree-container img {
+        height: 250px;
+    }
+
+
+    .sectionThree-container .part2 .part2-card {
+        flex-direction: column;
+    }
+
+    .sectionThree-container .title {
+        margin-top: 20px;
+    }
+
 }

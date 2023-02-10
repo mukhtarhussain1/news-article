@@ -62,3 +62,11 @@ figcaption {
     position: absolute;
     bottom: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .sectionFour-container ul {
+        display: flex;
+        flex-direction: column;
+    }
+}

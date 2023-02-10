@@ -39,9 +39,3 @@
 .row {
   margin: 0;
 }
-
-.tag {
-  opacity: 0;
-  transform: translate(0, 10vh);
-  transition: all 1s;
-}
