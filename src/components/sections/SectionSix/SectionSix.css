@@ -41,3 +41,10 @@
     width: -webkit-fill-available;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .sectionSix-card p {
+        padding-inline: 10px;
+    }
+}

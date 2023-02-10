@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const FooterSecond = () => {
   return (
-    <div>
+    <div className="footer">
       <nav className="nav">
         <div className="footerSecond-container">
           <ul>

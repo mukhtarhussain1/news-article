@@ -34,4 +34,8 @@
         padding: 60px 40px;
     }
 
+    .sectionNine-container p {
+        padding-right: 0;
+    }
+
 }

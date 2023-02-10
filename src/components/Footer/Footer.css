@@ -133,10 +133,23 @@
     padding: 7px 75px;
 }
 
+.footer hr {
+    padding-bottom: 40px;
+}
+
 
 @media screen and (max-width: 1200px) {
 
     .nav .footerSecond-container a {
-        padding: 7px 10px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .footer-right-content {
+        margin-top: 60px;
+    }
+
+    .footer-right-content .input-wraper {
+        width: 90%;
     }
 }

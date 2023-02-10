@@ -55,3 +55,14 @@
     font-size: 16px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1200px) {
+    .sectionFive-container {
+        margin: 0px;
+        height: 500px;
+    }
+
+    .sectionFive-content {
+        padding-inline: 10px;
+    }
+}
