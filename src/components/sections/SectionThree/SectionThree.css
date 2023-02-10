@@ -1,0 +1,53 @@
+.sectionThree-container {
+    padding: 60px;
+
+}
+
+.sectionThree-container .part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionThree-container .part1 h6 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 127%;
+    color: var(--primary-color);
+    padding-right: 125px;
+}
+
+.sectionThree-container .part1 p,
+.sectionThree-container .part2 p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
+.sectionThree-container .part2 p {
+    margin: 0;
+    padding-right: 70px;
+}
+
+.sectionThree-container .part1 p {
+    padding-right: 125px;
+}
+
+.sectionThree-container .part2 .part2-card {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.sectionThree-container .part2 .part2-card:hover {
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}

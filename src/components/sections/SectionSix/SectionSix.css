@@ -1,0 +1,41 @@
+.sectionSix-container {
+    padding: 60px;
+}
+
+.sectionSix-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.sectionSix-card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+.sectionSix-card,
+.sectionSix-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionSix-card p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+    text-align: center;
+    padding-inline: 50px;
+    color: var(--primary-color);
+    ;
+}
+
+.sectionSix-container img {
+    width: -webkit-fill-available;
+}

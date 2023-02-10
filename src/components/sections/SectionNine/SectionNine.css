@@ -1,0 +1,31 @@
+.sectionNine-container {
+    padding: 60px 100px;
+
+}
+
+.sectionNine-container .part2 .part2-card {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.sectionNine-container .part2 .part2-card:hover {
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.sectionNine-container p,
+.sectionNine-container span {
+    color: var(--primary-color);
+}
+
+.sectionNine-container p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127%;
+    padding-right: 70px;
+    margin: 0;
+}

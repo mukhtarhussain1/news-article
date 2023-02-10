@@ -1,0 +1,52 @@
+.main-header {
+    padding: 25px 70px 20px;
+    margin: 0;
+    position: fixed;
+    background-color: var(--bg-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.main-header.active {
+    padding: 25px 60px;
+}
+
+.menu-icon {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.main-header-section1 {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-section1 img {
+    height: 30px;
+}
+
+.main-header.active img {
+    height: 25px;
+}
+
+.main-header-section1 h6 {
+    margin: 0;
+    padding-inline: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.main-header-section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-section2 img {
+    height: 60px;
+    transition: all 0.3s ease-in-out;
+}

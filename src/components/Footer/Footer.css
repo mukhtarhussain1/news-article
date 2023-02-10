@@ -1,0 +1,165 @@
+.footer-container {
+    padding: 60px;
+}
+
+.footer-left-content {
+    display: flex;
+}
+
+.footer-right-content {
+    display: flex;
+    justify-content: end;
+}
+
+#site-nav {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    padding-top: 2.5em;
+}
+
+#site-nav .col {
+    padding-bottom: 2.5em;
+}
+
+@media screen and (min-width: 550px) {
+    #site-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #site-nav .col {
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #site-nav .col {
+        flex: 0 0 33.333333333%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    #site-nav {
+        flex-wrap: nowrap;
+    }
+
+    #site-nav .col {
+        flex: 0 0 20%;
+    }
+
+    #site-nav .col:last-child {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.footer-left-content h4,
+.footer-right-content h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.footer-left-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.footer-left-content li {
+    margin-bottom: 0.3125em;
+}
+
+.footer-left-content li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--primary-color);
+
+    transition: color 0.3s ease;
+}
+
+.footer-left-content li a:hover,
+.footer-left-content li a:focus {
+    color: #686d6e;
+}
+
+.footer-right-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 70px;
+    color: var(--primary-color);
+
+}
+
+.footer-right-content .input-wraper {
+    background-color: var(--footer-input-bg);
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #fff;
+}
+
+.footer-right-content input,
+.footer-right-content button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.footer-right-content button {
+    background-color: #F2F2EA;
+    padding: 10px;
+}
+
+.footer-right-content button {
+    color: #000;
+}
+
+::placeholder,
+.footer-right-content button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    opacity: 1;
+}
+
+::placeholder {
+    color: var(--primary-color);
+}
+
+:-ms-input-placeholder {
+    color: var(--primary-color);
+}
+
+::-ms-input-placeholder {
+    color: var(--primary-color);
+}
+
+.footerSecond-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.nav .footerSecond-container a {
+    padding: 7px 75px;
+}
