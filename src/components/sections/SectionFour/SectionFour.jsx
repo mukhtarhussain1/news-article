@@ -2,7 +2,7 @@ import React from "react";
 import "./SectionFour.css";
 const SectionFour = ({ Data }) => {
   return (
-    <div class="sectionFour-container">
+    <div className="sectionFour-container">
       <ul>
         {Data.map((item) => (
           <li>

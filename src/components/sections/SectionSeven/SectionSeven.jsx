@@ -22,7 +22,7 @@ const SectionSeven = () => {
         </div>
       </div>
       <div className="col-md-4 sectionSeven-part3">
-        <div className="title">Half empty</div>
+        <div className="title title-inverted">Half empty</div>
         <h6>
           Louvre Abu Dhabi marks 4th anniversary with world class exhibition
           Louvre Abu Dhabi marks 4th

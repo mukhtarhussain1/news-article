@@ -4,7 +4,7 @@ import "./SectionEight.css";
 
 const SectionEight = () => {
   return (
-    <div class="sectionFour-container">
+    <div className="sectionFour-container">
       <ul>
         {sectionEightData.map((item) => (
           <li>

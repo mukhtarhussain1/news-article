@@ -1,12 +1,11 @@
 import React from "react";
-import { sectionTwoData } from "../../../data/common";
 import "./SectionTwo.css";
 
-const SectionTwo = () => {
+const SectionTwo = ({ Data }) => {
   return (
-    <div class="sectionTwo-container">
+    <div className="sectionTwo-container">
       <ul>
-        {sectionTwoData.map((item) => (
+        {Data.map((item) => (
           <li>
             <img alt={item.title} src={item.image}></img>
             <div className="title">{item.title}</div>

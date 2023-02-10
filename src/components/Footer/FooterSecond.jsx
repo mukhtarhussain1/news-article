@@ -4,8 +4,8 @@ import "./Footer.css";
 const FooterSecond = () => {
   return (
     <div>
-      <nav class="nav">
-        <div class="footerSecond-container">
+      <nav className="nav">
+        <div className="footerSecond-container">
           <ul>
             <li>
               <a href="/">Magazine</a>
@@ -28,7 +28,7 @@ const FooterSecond = () => {
           </ul>
         </div>
       </nav>
-      <hr className="pb-5" />
+      <hr classNameName="pb-5" />
     </div>
   );
 };

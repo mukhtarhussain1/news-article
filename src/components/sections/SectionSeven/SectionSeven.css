@@ -37,7 +37,6 @@
     ;
 }
 
-
 .sectionSeven-part2 {
     display: flex;
     flex-direction: column;
@@ -53,4 +52,10 @@
 .sectionSeven-part3 h6,
 .sectionSeven-part3 p {
     opacity: 0.2;
+}
+
+.title-inverted {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }

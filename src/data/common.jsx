@@ -137,6 +137,17 @@ export const sectionFourData = [
   },
 ];
 
+export const sectionFiveData = [
+  {
+    title: "Long Read",
+    text1: "Meals on wheels: best in the UAE",
+    text2: "Louvre Abu Dhabi marks 4th anniversary with world class exhibition",
+    text3: "Louvre Abu Dhabi marks 4th anniversary",
+    text4: "with world class exhibitions, programming for all",
+    auther: "A. R. Oliver",
+  },
+];
+
 export const sectionSixData = [
   {
     image: image18,

@@ -1,20 +1,22 @@
 import React from "react";
 import "./SectionFive.css";
 
-const SectionFive = () => {
+const SectionFive = ({ Data }) => {
   return (
-    <div className="sectionFive-container">
-      <div className="title sectionFive-title">Long Read</div>
-      <div className="sectionFive-content">
-        <p>Meals on wheels: best in the UAE</p>
-        <h6>
-          Louvre Abu Dhabi marks 4th anniversary with world class exhibition
-        </h6>
-        <h6>Louvre Abu Dhabi marks 4th anniversary</h6>
-        <h6>with world class exhibitions, programming for all</h6>
-        <span>A. R. Oliver</span>
-      </div>
-    </div>
+    <>
+      {Data.map((item) => (
+        <div className="sectionFive-container">
+          <div className="title sectionFive-title">{item.title}</div>
+          <div className="sectionFive-content">
+            <p>{item.text1}</p>
+            <h6>{item.text2}</h6>
+            <h6>{item.text3}</h6>
+            <h6>{item.text4}</h6>
+            <span>{item.auther}</span>
+          </div>
+        </div>
+      ))}
+    </>
   );
 };
 
