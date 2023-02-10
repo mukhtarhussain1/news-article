@@ -107,8 +107,8 @@ span {
 }
 
 @media screen and (max-width: 1200px) {
-    .sectionOne-container {
-        padding: 20px;
+    .sectionOne-left-part1 {
+        padding-inline: 8%;
     }
 
     .sectionTwo-container ul {
@@ -116,7 +116,7 @@ span {
     }
 
     .sectionOne-left img {
-        height: 250px;
+        height: 330px;
     }
 
     .sectionOne-right {
@@ -125,6 +125,12 @@ span {
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+    }
+
+    .sectionOne-right-part1 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }

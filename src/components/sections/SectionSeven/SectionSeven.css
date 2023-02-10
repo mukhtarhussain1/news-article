@@ -59,3 +59,23 @@
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 1200px) {
+
+    .sectionSeven-container {
+        margin: 40px 0;
+    }
+
+    .sectionSeven-part1 h6,
+    .sectionSeven-part3 h6 {
+        font-size: 28px;
+        padding-right: 0px;
+    }
+
+    .sectionSeven-part1 p,
+    .sectionSeven-part3 p {
+        font-size: 18px;
+        padding-right: 70px;
+        ;
+    }
+}

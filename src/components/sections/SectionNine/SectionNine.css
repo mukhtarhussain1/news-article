@@ -1,6 +1,5 @@
 .sectionNine-container {
     padding: 60px 100px;
-
 }
 
 .sectionNine-container .part2 .part2-card {
@@ -28,4 +27,11 @@
     line-height: 127%;
     padding-right: 70px;
     margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .sectionNine-container {
+        padding: 60px 40px;
+    }
+
 }

@@ -59,6 +59,10 @@
 
 @media screen and (max-width: 1200px) {
 
+    .sectionTwo-container {
+        margin-inline: 0;
+    }
+
     .sectionTwo-container ul {
         flex-direction: column;
     }

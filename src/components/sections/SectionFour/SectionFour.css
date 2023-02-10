@@ -65,6 +65,11 @@ figcaption {
 
 @media screen and (max-width: 1200px) {
 
+    .sectionFour-container {
+        margin-inline: 0;
+        margin-top: 20px;
+    }
+
     .sectionFour-container ul {
         display: flex;
         flex-direction: column;

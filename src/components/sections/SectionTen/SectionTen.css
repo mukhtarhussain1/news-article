@@ -39,3 +39,10 @@
 .sectionTen-container img {
     width: -webkit-fill-available;
 }
+
+@media screen and (max-width: 1200px) {
+    .sectionTen-card p {
+        padding-inline: 20px;
+    }
+
+}

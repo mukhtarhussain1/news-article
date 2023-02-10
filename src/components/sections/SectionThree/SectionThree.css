@@ -53,6 +53,11 @@
 
 @media screen and (max-width: 1200px) {
 
+    .sectionThree-container {
+        padding: 0;
+        margin-inline: 30px;
+    }
+
     .sectionThree-container img {
         height: 250px;
     }
