@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="row footer-container">
       <div className="col-md-6 footer-left-content">
-        <div className="col-4">
+        <div className="col-md-6 col-lg-4">
           <h4>News</h4>
           <ul>
             <li>
@@ -16,7 +16,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-md-6 col-lg-4">
           <h4>Life</h4>
           <ul>
             <li>
@@ -42,7 +42,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-md-6 col-lg-4">
           <h4>Business</h4>
           <ul>
             <li>
