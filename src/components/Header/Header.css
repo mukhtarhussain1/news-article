@@ -24,10 +24,6 @@
     align-items: center;
 }
 
-.main-header-section1 img {
-    height: 30px;
-}
-
 .main-header.active img {
     height: 25px;
 }
@@ -58,5 +54,9 @@
     .main-header {
         padding: 15px;
         position: absolute;
+    }
+
+    .main-header img {
+        height: 20px;
     }
 }
