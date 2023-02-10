@@ -52,9 +52,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-
     color: var(--primary-color);
-
     transition: color 0.3s ease;
 }
 
@@ -139,10 +137,12 @@
 
 
 @media screen and (max-width: 1200px) {
+    .footer-container {
+        padding: 60px 20px;
+    }
 
-    .nav .footerSecond-container a {
-        padding: 8px;
-        font-size: 12px;
+    .footer-left-content {
+        justify-content: space-around;
     }
 
     .footer-right-content {
@@ -152,4 +152,11 @@
     .footer-right-content .input-wraper {
         width: 100%;
     }
+
+    .nav .footerSecond-container a {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+
 }
