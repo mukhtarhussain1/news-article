@@ -59,7 +59,7 @@
     }
 
     .sectionThree-container img {
-        height: 250px;
+        height: 200px;
     }
 
     .sectionThree-container .part2 .part2-card {
@@ -70,4 +70,8 @@
         margin-top: 20px;
     }
 
+    .sectionThree-container .part1 h6,
+    .sectionThree-container p {
+        padding-right: 0;
+    }
 }
