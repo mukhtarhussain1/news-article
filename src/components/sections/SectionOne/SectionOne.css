@@ -107,9 +107,8 @@ span {
 }
 
 @media screen and (max-width: 1200px) {
-
-    .main-header {
-        position: absolute;
+    .sectionOne-container {
+        padding: 20px;
     }
 
     .sectionTwo-container ul {

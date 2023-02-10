@@ -20,6 +20,7 @@ import {
   sectionThreeData1,
   sectionFourData,
   sectionFiveData,
+  sectionSixData,
   sectionEightData,
   sectionNineData1,
   sectionNineData2,
@@ -36,7 +37,7 @@ const Homepage = ({ toggleTheme }) => {
       <SectionThree Data1={sectionThreeData1} Data2={sectionThreeData2} />
       <SectionFour Data={sectionFourData} />
       <SectionFive Data={sectionFiveData} />
-      <SectionSix />
+      <SectionSix Data={sectionSixData} />
       <SectionSeven />
       <SectionFour Data={sectionEightData} />
       <SectionNine Data1={sectionNineData1} Data2={sectionNineData2} />

@@ -156,13 +156,13 @@ export const sectionSixData = [
     auther: "U. R. Oliver",
   },
   {
-    image: image19,
+    image: image20,
     title: "OPEN HOUSE",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
     auther: "U. R. Oliver",
   },
   {
-    image: image20,
+    image: image19,
     title: "OPEN HOUSE",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
     auther: "U. R. Oliver",

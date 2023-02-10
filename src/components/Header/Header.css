@@ -57,5 +57,6 @@
 
     .main-header {
         padding: 15px;
+        position: absolute;
     }
 }
