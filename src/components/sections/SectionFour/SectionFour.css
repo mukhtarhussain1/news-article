@@ -63,6 +63,17 @@ figcaption {
     bottom: 10px;
 }
 
+.hidefigcaption {
+    display: none;
+}
+
+figcaption .menu-icon {
+    color: var(--secondary-color);
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 1200px) {
 
     .sectionFour-container {
