@@ -16,7 +16,7 @@
 
 .sectionSeven-part1 h6,
 .sectionSeven-part3 h6 {
-    font-family: 'Playfair Display';
+    font-family: var(--PlayfairDisplay);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -27,7 +27,7 @@
 
 .sectionSeven-part1 p,
 .sectionSeven-part3 p {
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;

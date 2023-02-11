@@ -28,7 +28,7 @@ const FooterSecond = () => {
           </ul>
         </div>
       </nav>
-      <hr classNameName="pb-5" />
+      <hr className="pb-5" />
     </div>
   );
 };

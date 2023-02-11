@@ -237,6 +237,7 @@ export const sectionNineData1 = [
     span: "U. R. Oliver",
   },
 ];
+
 export const sectionNineData2 = [
   {
     image: image27,
@@ -282,5 +283,39 @@ export const sectionTenData = [
     text: "Meals on wheels: Meals on wheels: best in the UAE best",
     text2: "in the UAE",
     auther: "U. R. Oliver",
+  },
+];
+
+export const footerData = [
+  {
+    news: {
+      title: "News",
+      featured: "Featured News",
+      latest: "Latest News",
+    },
+    life: {
+      title: "Life",
+      latest: "Latest News",
+      fashion: "Fashion",
+      dining: "Dining",
+      recipes: "Recipes",
+      artCulture: "Art & Culture",
+      travel: "Travel",
+      motoring: "Motoring",
+    },
+    business: {
+      title: "Business",
+      openHouse: "Open House",
+      whatDoesThatEvenMean: "What does that even mean?",
+      homegrown: "Homegrown",
+      howDoI: "How do I...",
+      bagOff: "Bag off",
+      whereToSpendIt: "Where to spend it",
+    },
+    contact: {
+      subscribe: "Subscribe",
+      getUpdates: "Get fresh updates about the fashion, beauty, trends",
+      submit: "Submit",
+    },
   },
 ];

@@ -26,6 +26,7 @@ import {
   sectionNineData1,
   sectionNineData2,
   sectionTenData,
+  footerData,
 } from "../data/common";
 
 const Homepage = ({ toggleTheme }) => {
@@ -43,8 +44,7 @@ const Homepage = ({ toggleTheme }) => {
       <SectionFour Data={sectionEightData} />
       <SectionNine Data1={sectionNineData1} Data2={sectionNineData2} />
       <SectionTen Data={sectionTenData} />
-      <hr />
-      <Footer />
+      <Footer Data={footerData} />
       <FooterSecond />
     </div>
   );

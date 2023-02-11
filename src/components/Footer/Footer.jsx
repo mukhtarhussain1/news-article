@@ -1,82 +1,86 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ Data }) => {
   return (
-    <div className="row footer-container">
-      <div className="col-md-6 footer-left-content">
-        <div className="col-md-6 col-lg-4">
-          <h4>News</h4>
-          <ul>
-            <li>
-              <a href="/">Featured News</a>
-            </li>
-            <li>
-              <a href="/">Latest News</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-6 col-lg-4">
-          <h4>Life</h4>
-          <ul>
-            <li>
-              <a href="/">Latest News</a>
-            </li>
-            <li>
-              <a href="/">Fashion</a>
-            </li>
-            <li>
-              <a href="/">Dining</a>
-            </li>
-            <li>
-              <a href="/">Recipes</a>
-            </li>
-            <li>
-              <a href="/">Art & Culture</a>
-            </li>
-            <li>
-              <a href="/">Travel</a>
-            </li>
-            <li>
-              <a href="/">Motoring</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-6 col-lg-4">
-          <h4>Business</h4>
-          <ul>
-            <li>
-              <a href="/">Open House</a>
-            </li>
-            <li>
-              <a href="/">What does that even mean?</a>
-            </li>
-            <li>
-              <a href="/">Homegrown</a>
-            </li>
-            <li>
-              <a href="/">How do I...</a>
-            </li>
-            <li>
-              <a href="/">Bag off</a>
-            </li>
-            <li>
-              <a href="/">Where to spend it</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-md-6 footer-right-content">
-        <div className="col-sm-12 col-md-6 ">
-          <h4>Subscribe</h4>
-          <p>Get fresh updates about the fashion, beauty, trends</p>
-          <div className="input-wraper">
-            <input placeholder="Enter your email below" />
-            <button>Submit</button>
+    <>
+      {Data.map((item) => (
+        <div className="row footer-container">
+          <div className="col-md-6 footer-left-content">
+            <div className="col-md-6 col-lg-4">
+              <h4>{item.news.title}</h4>
+              <ul>
+                <li>
+                  <a href="/">{item.news.featured}</a>
+                </li>
+                <li>
+                  <a href="/">{item.news.latest}</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <h4>{item.life.title}</h4>
+              <ul>
+                <li>
+                  <a href="/">{item.life.latest}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.fashion}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.dining}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.recipes}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.artCulture}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.travel}</a>
+                </li>
+                <li>
+                  <a href="/">{item.life.motoring}</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <h4>{item.business.title}</h4>
+              <ul>
+                <li>
+                  <a href="/">{item.business.openHouse}</a>
+                </li>
+                <li>
+                  <a href="/">{item.business.whatDoesThatEvenMean}</a>
+                </li>
+                <li>
+                  <a href="/">{item.business.homegrown}</a>
+                </li>
+                <li>
+                  <a href="/">{item.business.howDoI}</a>
+                </li>
+                <li>
+                  <a href="/">{item.business.bagOff}</a>
+                </li>
+                <li>
+                  <a href="/">{item.business.whereToSpendIt}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-6 footer-right-content">
+            <div className="col-sm-12 col-md-6 ">
+              <h4>{item.contact.subscribe}</h4>
+              <p>{item.contact.getUpdates}</p>
+              <div className="input-wraper">
+                <input placeholder="Enter your email below" />
+                <button>{item.contact.submit}</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      ))}
+    </>
   );
 };
 

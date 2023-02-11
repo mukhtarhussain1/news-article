@@ -44,7 +44,7 @@
 }
 
 .sectionTwo-container ul li p {
-    font-family: 'Playfair Display';
+    font-family: var(--PlayfairDisplay);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -54,7 +54,6 @@
     margin: 0;
     padding-inline: 10px;
 }
-
 
 
 @media screen and (max-width: 1200px) {

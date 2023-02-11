@@ -8,7 +8,7 @@ const SectionOne = ({ Data }) => {
   return (
     <>
       {Data.map((item) => (
-        <div className="row sectionOne-container">
+        <div className="row sectionOne-container" key={item.travel}>
           <div className="col-md-12 col-lg-6 sectionOne-left">
             <div className="sectionOne-left-part1">
               <div className="title">{item.travel}</div>
